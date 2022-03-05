@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PronomeActivity">
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="401dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/editNome"
+        tools:layout_editor_absoluteX="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione um pronome" />
+
+        <RadioGroup
+            android:id="@+id/rgPronome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioEle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ele" />
+
+            <RadioButton
+                android:id="@+id/radioEla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ela" />
+
+            <RadioButton
+                android:id="@+id/radioElu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elix" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonIr"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/button"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

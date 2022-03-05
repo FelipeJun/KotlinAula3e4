@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aula03</string>
+    <string name="ir">Go</string>
+    <string name="e_mail">E-mail</string>
+    <string name="nome">Name</string>
+    <string name="telefone">Telephone</string>
+    <string name="tel">Tel</string>
+    <string name="ola">Hello</string>
+    <string name="seu_telefone">Your telephone is</string>
+    <string name="seu_email">Your e-mail is:</string>
+    <string name="preferencia">Your contact preference is</string>
+    <string name="bem_vindo">Welcome</string>
+</resources>
