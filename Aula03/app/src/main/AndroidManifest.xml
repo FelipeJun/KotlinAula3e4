@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aula03">
         <activity
+            android:name=".PokemonActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ContatoActivity"
             android:exported="true">
             <intent-filter>
